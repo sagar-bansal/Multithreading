@@ -7,9 +7,10 @@ public class Consumer extends Thread {
     }
     public void run(){
         while(true){
-            this.comp.consume_item();
+           
             try {
-                Thread.sleep(100);
+                this.comp.consume_item();
+               // Thread.sleep(1000);
             } catch (Exception e) {
                 //TODO: handle exception
             }
