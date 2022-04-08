@@ -1,0 +1,19 @@
+In Java, we can mark a method or block as synchronized, which means that only one thread will be able to enter that method or block at a given point of time.
+
+Inter-Thread Communication
+
+Inter-thread communication allows synchronized threads to communicate with each other using a set of methods.
+
+The methods used are wait, notify, and notifyAll, which are all inherited from the Object class.
+
+Wait() causes the current thread to wait indefinitely until some other thread calls notify() or notifyAll() on the same object. 
+
+Semaphore: Software based solution to synchronization problem. Manage concurrent processes using one non negative integer value
+which is shared between the threads.
+semaphore variable can be accessed only with wait() and signal() operation
+
+Difference Between Volatile, Atomic And Synchronized in Java | Race Condition In Multi-Threading
+
+https://www.youtube.com/watch?v=3vptroRUvn8&ab_channel=TechStack9
+
+
